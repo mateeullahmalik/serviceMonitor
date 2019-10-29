@@ -17,12 +17,12 @@ It uses postgres database and exposes several endpoints for retrieveing reports 
 ```
 	db := pg.Connect(&pg.Options{
 		User:     "postgres",
-		Password: "iamrobot",
+		Password: "",
 		Addr:     "localhost:5432",
 	})
 ```
 
 ### Possible Future Improvements
 
-*Define a seperate table for service (ID, Name, URL) and  ServicePing (Takes ServiceID as foreign Key). It working abosluetly fine but this would be a better design decision.
-*Add Migrations to automate the task of creating a 'test' named database for test cases
+* Define a seperate table for service (ID, Name, URL) and  ServicePing (Takes ServiceID as foreign Key). It working abosluetly fine but this would be a better design decision.
+* Add Migrations to automate the task of creating a 'test' named database for test cases
