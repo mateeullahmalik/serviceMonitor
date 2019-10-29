@@ -24,8 +24,6 @@ var _ = Describe("Monitor", func() {
 		db = pg.Connect(&pg.Options{
 			Database: "test", //Make sure 'test' Database exists.
 			User:     "postgres",
-			Password: "iamrobot",
-			Addr:     "localhost:5432",
 		})
 
 		h = &storage.StorageHandler{
