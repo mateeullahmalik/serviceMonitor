@@ -28,8 +28,6 @@ var _ = Describe("Storage Test", func() {
 		db = pg.Connect(&pg.Options{
 			Database: "test", //Make sure Test Database exists
 			User:     "postgres",
-			Password: "iamrobot",
-			Addr:     "localhost:5432",
 		})
 
 		h = &storage.StorageHandler{
