@@ -28,6 +28,6 @@ It uses postgres database and exposes several endpoints for retrieveing reports 
 * `/reports/availability?time_from=100&time_to=150` //Returns the availability (Total Hits, Successful & Unsuccessful Hits) within given time period. Paramters `time_from` & `time_to` are optional and accept Timestamp in UNIX format (BigInt).
 
 ### Possible Future Improvements
-
+test
 * Define a seperate table for service (ID, Name, URL) and  ServicePing (Takes ServiceID as foreign Key). It working abosluetly fine but this would be a better design decision.
 * Add Migrations to automate the task of creating a 'test' named database for test cases
