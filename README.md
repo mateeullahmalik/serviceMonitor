@@ -31,3 +31,4 @@ It uses postgres database and exposes several endpoints for retrieveing reports 
 
 * Define a seperate table for service (ID, Name, URL) and  ServicePing (Takes ServiceID as foreign Key). It working abosluetly fine but this would be a better design decision.
 * Add Migrations to automate the task of creating a 'test' named database for test cases
+ed
