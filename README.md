@@ -21,7 +21,7 @@ It uses postgres database and exposes several endpoints for retrieveing reports 
 		Addr:     "localhost:5432",
 	})
 ```
-## Exposed APIs
+## Exposed APIs tgu
 
 * `/reports/responsetime?time_from=100&time_to=150` //Returns average response time of all the services within given time period. Paramters `time_from` & `time_to` are optional and accept Timestamp in UNIX format (BigInt).
 
