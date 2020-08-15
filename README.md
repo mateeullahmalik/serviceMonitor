@@ -22,7 +22,7 @@ It uses postgres database and exposes several endpoints for retrieveing reports 
 	})
 ```
 ## Exposed APIs
-
+nbb
 * `/reports/responsetime?time_from=100&time_to=150` //Returns average response time of all the services within given time period. Paramters `time_from` & `time_to` are optional and accept Timestamp in UNIX format (BigInt).
 
 * `/reports/availability?time_from=100&time_to=150` //Returns the availability (Total Hits, Successful & Unsuccessful Hits) within given time period. Paramters `time_from` & `time_to` are optional and accept Timestamp in UNIX format (BigInt).
