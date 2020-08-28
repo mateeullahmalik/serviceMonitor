@@ -1,6 +1,6 @@
 # Service Monitor
 This is a service which monitors other sevices and keeps track of their response time.
-It uses postgres database and exposes several endpoints for retrieveing reports related to response time & availability of services
+It uses postgres database and exposes several endpoints for retrieveing reports related to response time & availability of serviceshh
 
 ## Libraries Used
 * [Gin](https://github.com/gin-gonic/gin) for Rest APIs
