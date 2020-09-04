@@ -15,7 +15,7 @@ It uses postgres database and exposes several endpoints for retrieveing reports 
 4. Make sure to add your postgres user password in main.go Line # 30
 
 ```
-	db := pg.Connect(&pg.Options{
+	db := pg.Connect(&pg.Options{eed
 		User:     "postgres",
 		Password: "",
 		Addr:     "localhost:5432",
